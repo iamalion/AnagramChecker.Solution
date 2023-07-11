@@ -1,7 +1,11 @@
+using System;
+
 namespace AnagramChecker.Models
 {
     public class Word 
     {
-        // Business logic goes here
+        public string EchoWord(string word){
+            return word;
+        }
     }
 }
