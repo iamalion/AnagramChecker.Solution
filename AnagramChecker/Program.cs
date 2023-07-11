@@ -1,20 +1,12 @@
 using System;
 
-namespace AnagramChecker.Models
-
+namespace AnagramChecker
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Enter a word:");
-            string inputWord = Console.ReadLine();
-
-            Word word = new Word();
-            string echoedWord = word.EchoWord(inputWord);
-
-            Console.WriteLine("Your word is: " + echoedWord);
-            Console.ReadLine();
+            
         }
     }
 }
